@@ -12,7 +12,7 @@
 			pnpm create next-app "$out" \
 					--import-alias=${importAlias} \
 					--${language} \
-					--use-pnpm \
+					--use-npm \
 					${if eslint then "--eslint" else "--no-eslint" } \
 					${if srcDir then "--src-dir" else "--no-src-dir" } \
 					${if app then "--app" else "--no-app" } \

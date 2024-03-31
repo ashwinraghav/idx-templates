@@ -18,14 +18,16 @@
 			# tar -mxf p.tar.gz
 			# rm p.tar.gz
 			# pnpm config set store-dir /home/user/.pnpm-store
-			pnpm create next-app "$out" \
-					--import-alias=${importAlias} \
-					--${language} \
-					--use-pnpm \
-					${if eslint then "--eslint" else "--no-eslint" } \
-					${if srcDir then "--src-dir" else "--no-src-dir" } \
-					${if app then "--app" else "--no-app" } \
-					${if tailwind then "--tailwind" else "--no-tailwind" }
+			# pnpm create next-app "$out" \
+			#		--import-alias=${importAlias} \
+			#		--${language} \
+			#		--use-pnpm \
+			#		${if eslint then "--eslint" else "--no-eslint" } \
+			#		${if srcDir then "--src-dir" else "--no-src-dir" } \
+			#		${if app then "--app" else "--no-app" } \
+			#		${if tailwind then "--tailwind" else "--no-tailwind" }
+
+			npx create-next-app --example fast-refresh-demo "$out"
 
 			mkdir -p "$out"/.idx
   		cp ${./dev.nix} "$out"/.idx/dev.nix

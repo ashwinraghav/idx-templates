@@ -5,6 +5,7 @@
 			pkgs.yarn
 			pkgs.nodePackages.pnpm
 			pkgs.bun
+    			pkgs.curl
     ];
 
     bootstrap = ''

@@ -27,7 +27,7 @@
 			#		${if app then "--app" else "--no-app" } \
 			#		${if tailwind then "--tailwind" else "--no-tailwind" }
 
-			npx create-next-app --example fast-refresh-demo "$out"
+			npx create-next-app -y --example https://github.com/ashwinraghav/ashwin-example "$out"
 
 			mkdir -p "$out"/.idx
   		cp ${./dev.nix} "$out"/.idx/dev.nix

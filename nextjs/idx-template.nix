@@ -6,6 +6,7 @@
 			pkgs.nodePackages.pnpm
 			pkgs.bun
     			pkgs.curl
+			pkgs.toybox
     ];
 
     bootstrap = ''

@@ -1,0 +1,8 @@
+{
+    "name": "Ruby on Rails",
+    "description": "Rails starter tempalte",
+    "categories": ["Backend"],
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Ruby_On_Rails_Logo.svg/240px-Ruby_On_Rails_Logo.svg.png",
+    "publisher": "Ashwin Raghav",
+     "params": []
+  }

@@ -2,7 +2,7 @@ A template for getting started with Dotnet in Project IDX
 
 ## Open in Project IDX 
 
-<a href="https://idx.google.com/new?template=https://https://github.com/ashwinraghav/idx-templates/new/main/rails">
+<a href="https://idx.google.com/new?template=https://github.com/ashwinraghav/idx-templates/tree/main/rails">
   <img
     alt="Open in Monospace"
     src="https://www.gstatic.com/monospace/230815/openinprojectidx.png"
